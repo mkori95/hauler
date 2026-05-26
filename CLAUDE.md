@@ -72,12 +72,22 @@ Build only these features. Nothing else.
 - UserStats: streak, totalXP, level, lastWorkoutDate
 
 ## Current Focus
-[ UPDATE THIS EVERY SESSION ]
-Currently building: Onboarding screen
+UI Reference: Dark theme, #111111 background, #FF4D00 orange accent, 
+DM Serif Display for headings, DM Sans for body, bottom nav with 
+Home / Workout / Progress / Settings
+
+Currently building: Basic profile setup (weight, height, equipment) — Phase 1 step 3
 
 ## Completed
-- [ ] Xcode project setup (iOS + watchOS targets)
-- [ ] GitHub repo created
+- [x] Xcode project setup (iOS + watchOS targets)
+- [x] GitHub repo created
+- [x] Auth screen — sign up / sign in with animated tab toggle, form validation
+- [x] Sign up collects: first name, last name, email, phone, date of birth, password
+- [x] Onboarding screen — mode selector (4 modes, animated cards, haptics)
+- [x] TrainingMode enum + UserProfile SwiftData model
+- [x] Color+Hex extension, HaulerTextField reusable component (with focus state, password reveal)
+- [x] App flow: AuthView → OnboardingView → ContentView (Home placeholder)
+- [x] RootView gates flow via @AppStorage flags (isSignedUp, hasCompletedOnboarding)
 
 ## Do Not Touch
 - Do not modify project structure without asking
@@ -94,7 +104,9 @@ Currently building: Onboarding screen
 - Config.swift template will be provided separately
 
 ## Notes for Claude
-- User is new to Swift — explain what you built after each feature in plain English
+- Do NOT explain code unless explicitly asked
+- Do NOT add summaries or walkthroughs after building
 - Keep code clean and well commented
 - One feature at a time
 - Ask before making structural changes
+- Just build — no teaching, no narration

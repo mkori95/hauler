@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F5A8CC252FC53B340073B075 /* hauler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hauler.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5A8CC342FC53B370073B075 /* haulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = haulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5A8CC3E2FC53B370073B075 /* haulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = haulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A8CC252FC53B340073B075 /* Hauler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hauler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A8CC342FC53B370073B075 /* HaulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A8CC3E2FC53B370073B075 /* HaulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,9 +85,9 @@
 		F5A8CC262FC53B340073B075 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F5A8CC252FC53B340073B075 /* hauler.app */,
-				F5A8CC342FC53B370073B075 /* haulerTests.xctest */,
-				F5A8CC3E2FC53B370073B075 /* haulerUITests.xctest */,
+				F5A8CC252FC53B340073B075 /* Hauler.app */,
+				F5A8CC342FC53B370073B075 /* HaulerTests.xctest */,
+				F5A8CC3E2FC53B370073B075 /* HaulerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F5A8CC242FC53B340073B075 /* hauler */ = {
+		F5A8CC242FC53B340073B075 /* Hauler */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5A8CC482FC53B370073B075 /* Build configuration list for PBXNativeTarget "hauler" */;
+			buildConfigurationList = F5A8CC482FC53B370073B075 /* Build configuration list for PBXNativeTarget "Hauler" */;
 			buildPhases = (
 				F5A8CC212FC53B340073B075 /* Sources */,
 				F5A8CC222FC53B340073B075 /* Frameworks */,
@@ -110,16 +110,16 @@
 			fileSystemSynchronizedGroups = (
 				F5A8CC272FC53B340073B075 /* hauler */,
 			);
-			name = hauler;
+			name = Hauler;
 			packageProductDependencies = (
 			);
 			productName = hauler;
-			productReference = F5A8CC252FC53B340073B075 /* hauler.app */;
+			productReference = F5A8CC252FC53B340073B075 /* Hauler.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F5A8CC332FC53B370073B075 /* haulerTests */ = {
+		F5A8CC332FC53B370073B075 /* HaulerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5A8CC4B2FC53B370073B075 /* Build configuration list for PBXNativeTarget "haulerTests" */;
+			buildConfigurationList = F5A8CC4B2FC53B370073B075 /* Build configuration list for PBXNativeTarget "HaulerTests" */;
 			buildPhases = (
 				F5A8CC302FC53B370073B075 /* Sources */,
 				F5A8CC312FC53B370073B075 /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				F5A8CC372FC53B370073B075 /* haulerTests */,
 			);
-			name = haulerTests;
+			name = HaulerTests;
 			packageProductDependencies = (
 			);
 			productName = haulerTests;
-			productReference = F5A8CC342FC53B370073B075 /* haulerTests.xctest */;
+			productReference = F5A8CC342FC53B370073B075 /* HaulerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F5A8CC3D2FC53B370073B075 /* haulerUITests */ = {
+		F5A8CC3D2FC53B370073B075 /* HaulerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5A8CC4E2FC53B370073B075 /* Build configuration list for PBXNativeTarget "haulerUITests" */;
+			buildConfigurationList = F5A8CC4E2FC53B370073B075 /* Build configuration list for PBXNativeTarget "HaulerUITests" */;
 			buildPhases = (
 				F5A8CC3A2FC53B370073B075 /* Sources */,
 				F5A8CC3B2FC53B370073B075 /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				F5A8CC412FC53B370073B075 /* haulerUITests */,
 			);
-			name = haulerUITests;
+			name = HaulerUITests;
 			packageProductDependencies = (
 			);
 			productName = haulerUITests;
-			productReference = F5A8CC3E2FC53B370073B075 /* haulerUITests.xctest */;
+			productReference = F5A8CC3E2FC53B370073B075 /* HaulerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F5A8CC202FC53B340073B075 /* Build configuration list for PBXProject "hauler" */;
+			buildConfigurationList = F5A8CC202FC53B340073B075 /* Build configuration list for PBXProject "Hauler" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F5A8CC242FC53B340073B075 /* hauler */,
-				F5A8CC332FC53B370073B075 /* haulerTests */,
-				F5A8CC3D2FC53B370073B075 /* haulerUITests */,
+				F5A8CC242FC53B340073B075 /* Hauler */,
+				F5A8CC332FC53B370073B075 /* HaulerTests */,
+				F5A8CC3D2FC53B370073B075 /* HaulerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		F5A8CC362FC53B370073B075 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F5A8CC242FC53B340073B075 /* hauler */;
+			target = F5A8CC242FC53B340073B075 /* Hauler */;
 			targetProxy = F5A8CC352FC53B370073B075 /* PBXContainerItemProxy */;
 		};
 		F5A8CC402FC53B370073B075 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F5A8CC242FC53B340073B075 /* hauler */;
+			target = F5A8CC242FC53B340073B075 /* Hauler */;
 			targetProxy = F5A8CC3F2FC53B370073B075 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -467,7 +467,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hauler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hauler";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hauler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hauler";
 			};
 			name = Debug;
 		};
@@ -488,7 +488,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hauler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hauler";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hauler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hauler";
 			};
 			name = Release;
 		};
@@ -533,7 +533,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F5A8CC202FC53B340073B075 /* Build configuration list for PBXProject "hauler" */ = {
+		F5A8CC202FC53B340073B075 /* Build configuration list for PBXProject "Hauler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5A8CC462FC53B370073B075 /* Debug */,
@@ -542,7 +542,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5A8CC482FC53B370073B075 /* Build configuration list for PBXNativeTarget "hauler" */ = {
+		F5A8CC482FC53B370073B075 /* Build configuration list for PBXNativeTarget "Hauler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5A8CC492FC53B370073B075 /* Debug */,
@@ -551,7 +551,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5A8CC4B2FC53B370073B075 /* Build configuration list for PBXNativeTarget "haulerTests" */ = {
+		F5A8CC4B2FC53B370073B075 /* Build configuration list for PBXNativeTarget "HaulerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5A8CC4C2FC53B370073B075 /* Debug */,
@@ -560,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5A8CC4E2FC53B370073B075 /* Build configuration list for PBXNativeTarget "haulerUITests" */ = {
+		F5A8CC4E2FC53B370073B075 /* Build configuration list for PBXNativeTarget "HaulerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5A8CC4F2FC53B370073B075 /* Debug */,

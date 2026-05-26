@@ -2,54 +2,29 @@
 //  ContentView.swift
 //  hauler
 //
-//  Created by Manikanta Bharadwaj Koride on 5/25/26.
+//  Placeholder home screen — full Home UI is built in the next session.
 //
 
 import SwiftUI
-import SwiftData
 
 struct ContentView: View {
-    @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
-
     var body: some View {
-        NavigationSplitView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                    } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
-                    }
-                }
-                .onDelete(perform: deleteItems)
-            }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
-                }
-            }
-        } detail: {
-            Text("Select an item")
-        }
-    }
+        ZStack {
+            Color(hex: "#111111").ignoresSafeArea()
 
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(timestamp: Date())
-            modelContext.insert(newItem)
-        }
-    }
+            VStack(spacing: 12) {
+                // Brand mark
+                HStack(spacing: 0) {
+                    Text("Haul")
+                        .foregroundColor(.white)
+                    Text("er")
+                        .foregroundColor(Color(hex: "#FF4D00"))
+                }
+                .font(.system(size: 42, weight: .regular, design: .serif))
 
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            for index in offsets {
-                modelContext.delete(items[index])
+                Text("Home screen — coming next.")
+                    .font(.system(size: 14))
+                    .foregroundColor(Color(hex: "#555555"))
             }
         }
     }
@@ -57,5 +32,4 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
 }
